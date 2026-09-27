@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment - All Tasks</title>
+    <link rel="icon" href="./assets/favbicon/text.png">
 </head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #ffffff; color: #000000;">
+<body style=" margin: 0; padding: 0; background-color: #ffffff; color: #000000;">
 
     <!-- Main Header -->
     <header style="background-color: #333333; color: #ffffff; padding: 16px; text-align: center;">
@@ -68,56 +69,105 @@
             
             <div style="background-color: #fdfdfd; padding: 20px; border: 1px solid #dddddd; font-family: monospace; font-size: 16px; line-height: 1.8;">
                 <ol>
-                    <li>&amp; — &amp;amp; (Ampersand)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&lt; — &amp;lt; (Less-than sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&gt; — &amp;gt; (Greater-than sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&quot; — &amp;quot; (Double quote)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&apos; — &amp;apos; (Single quote / Apostrophe)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&nbsp; — &amp;nbsp; (Non-breaking space)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&copy; — &amp;copy; (Copyright symbol)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&reg; — &amp;reg; (Registered trademark)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&trade; — &amp;trade; (Trademark)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&cent; — &amp;cent; (Cent sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&pound; — &amp;pound; (Pound sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&yen; — &amp;yen; (Yen sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&euro; — &amp;euro; (Euro sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&deg; — &amp;deg; (Degree symbol)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&plusmn; — &amp;plusmn; (Plus-minus sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&times; — &amp;times; (Multiplication sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&divide; — &amp;divide; (Division sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&frac14; — &amp;frac14; (Fraction 1/4)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&frac12; — &amp;frac12; (Fraction 1/2)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&frac34; — &amp;frac34; (Fraction 3/4)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&para; — &amp;para; (Paragraph / Pilcrow)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&sect; — &amp;sect; (Section sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&middot; — &amp;middot; (Middle dot)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&amp; — &amp;amp; (Ampersand)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&lt; — &amp;lt; (Less-than sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&gt; — &amp;gt; (Greater-than sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&quot; — &amp;quot; (Double quote)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&apos; — &amp;apos; (Single quote / Apostrophe)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&nbsp; — &amp;nbsp; (Non-breaking space)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&copy; — &amp;copy; (Copyright symbol)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&reg; — &amp;reg; (Registered trademark)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&trade; — &amp;trade; (Trademark)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&cent; — &amp;cent; (Cent sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&pound; — &amp;pound; (Pound sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&yen; — &amp;yen; (Yen sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&euro; — &amp;euro; (Euro sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&deg; — &amp;deg; (Degree symbol)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&plusmn; — &amp;plusmn; (Plus-minus sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&times; — &amp;times; (Multiplication sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&divide; — &amp;divide; (Division sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&frac14; — &amp;frac14; (Fraction 1/4)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&frac12; — &amp;frac12; (Fraction 1/2)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&frac34; — &amp;frac34; (Fraction 3/4)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&para; — &amp;para; (Paragraph / Pilcrow)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&sect; — &amp;sect; (Section sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&middot; — &amp;middot; (Middle dot)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
                     <li>&bull; — &amp;bull; (Bullet)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&hellip; — &amp;hellip; (Horizontal ellipsis)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&ndash; — &amp;ndash; (En dash)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&mdash; — &amp;mdash; (Em dash)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&lsquo; — &amp;lsquo; (Left single quote)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&rsquo; — &amp;rsquo; (Right single quote)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&ldquo; — &amp;ldquo; (Left double quote)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&rdquo; — &amp;rdquo; (Right double quote)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&laquo; — &amp;laquo; (Left angle quotes)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&raquo; — &amp;raquo; (Right angle quotes)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&larr; — &amp;larr; (Left arrow)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&rarr; — &amp;rarr; (Right arrow)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&uarr; — &amp;uarr; (Up arrow)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&darr; — &amp;darr; (Down arrow)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&harr; — &amp;harr; (Left-Right arrow)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&spades; — &amp;spades; (Spade suit)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&clubs; — &amp;clubs; (Club suit)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&hearts; — &amp;hearts; (Heart suit)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&diams; — &amp;diams; (Diamond suit)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&alpha; — &amp;alpha; (Greek Alpha)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&beta; — &amp;beta; (Greek Beta)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&gamma; — &amp;gamma; (Greek Gamma)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&delta; — &amp;delta; (Greek Delta)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&pi; — &amp;pi; (Greek Pi)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&omega; — &amp;omega; (Greek Omega)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&sum; — &amp;sum; (Summation sign)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
-                    <li>&infin; — &amp;infin; (Infinity symbol)</li><hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&hellip; — &amp;hellip; (Horizontal ellipsis)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&ndash; — &amp;ndash; (En dash)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&mdash; — &amp;mdash; (Em dash)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&lsquo; — &amp;lsquo; (Left single quote)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&rsquo; — &amp;rsquo; (Right single quote)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&ldquo; — &amp;ldquo; (Left double quote)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&rdquo; — &amp;rdquo; (Right double quote)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&laquo; — &amp;laquo; (Left angle quotes)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&raquo; — &amp;raquo; (Right angle quotes)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&larr; — &amp;larr; (Left arrow)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&rarr; — &amp;rarr; (Right arrow)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&uarr; — &amp;uarr; (Up arrow)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&darr; — &amp;darr; (Down arrow)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&harr; — &amp;harr; (Left-Right arrow)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&spades; — &amp;spades; (Spade suit)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&clubs; — &amp;clubs; (Club suit)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&hearts; — &amp;hearts; (Heart suit)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&diams; — &amp;diams; (Diamond suit)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&alpha; — &amp;alpha; (Greek Alpha)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&beta; — &amp;beta; (Greek Beta)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&gamma; — &amp;gamma; (Greek Gamma)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&delta; — &amp;delta; (Greek Delta)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&pi; — &amp;pi; (Greek Pi)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&omega; — &amp;omega; (Greek Omega)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&sum; — &amp;sum; (Summation sign)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
+                    <li>&infin; — &amp;infin; (Infinity symbol)</li>
+                    <hr style="border: 0.5px solid #eeeeee; margin: 8px 0;">
                 </ol>
             </div>
         </section>
@@ -173,7 +223,7 @@
 
     <!-- Footer -->
     <footer style="background-color: #333333; color: #ffffff; padding: 16px; text-align: center;">
-        <p style="margin: 0;">&copy; 2026 Muhammad Huzaifa Khan Lodhi | Pure Inline Mode</p>
+        <p style="margin: 0;">&copy; 2026 Muhammad Huzaifa Khan Lodhi | 2026 Muhammad Huzaifa Khan Lodhi | Built with HTML & Inline CSS</p>
     </footer>
 
 </body>
